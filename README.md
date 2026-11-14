@@ -8,98 +8,171 @@
 
 ## About me
 
-I'm a data engineer based in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
+I'm a data engineer in Nairobi who also builds full-stack apps. Here's me, as a query:
 
-- Currently building: an e-commerce storefront with React and Shopify
-- Currently learning: Builder.io for visual page building
-- Member of DAMA Kenya (Data Management Association)
-- Interested in data platforms, analytics engineering, and AI/ML
+```sql
+SELECT role, focus, currently_building, currently_learning, community
+FROM engineers
+WHERE name = 'Celine Sitina'
+  AND location = 'Nairobi, Kenya';
+```
+
+| role | focus | currently_building | currently_learning | community |
+|---|---|---|---|---|
+| Data Engineer and Full-Stack Builder | Data platforms, analytics engineering, AI/ML | UKILI, a React storefront on Shopify | Builder.io | DAMA Kenya |
+
+<sub>1 row returned. Query time: a lifetime of curiosity.</sub>
 
 ## How I work with data
 
 ```mermaid
 flowchart LR
-    A[Sources<br/>APIs, files, finance data] --> B[Ingest<br/>Python]
-    B --> C[Transform<br/>Databricks, dbt, SQL]
-    C --> D[Analyse<br/>Power BI, DAX]
-    C --> E[Build<br/>React, Django, Spring Boot]
-    C --> F[Explore<br/>AI and ML]
+    subgraph IN[" Collect "]
+        A[(Sources<br/>APIs, files,<br/>finance data)]
+        B[/Ingest<br/>Python/]
+    end
+
+    subgraph PROC[" Process "]
+        C[[Transform<br/>Databricks, dbt, SQL]]
+    end
+
+    subgraph OUT[" Deliver "]
+        D{{Analyse<br/>Power BI, DAX}}
+        E{{Build<br/>React, Django,<br/>Spring Boot}}
+        F{{Explore<br/>AI and ML}}
+    end
+
+    A ==> B ==> C
+    C ==> D
+    C ==> E
+    C ==> F
 
     classDef source fill:#0d0d0d,stroke:#ff4fd8,stroke-width:2px,color:#ffffff
     classDef pipe fill:#3d0a35,stroke:#ff4fd8,stroke-width:2px,color:#ffffff
     classDef output fill:#ff4fd8,stroke:#ffffff,stroke-width:2px,color:#0d0d0d
+    classDef group fill:#0d0d0d,stroke:#3d0a35,stroke-width:1px,color:#ff4fd8
 
     class A source
     class B,C pipe
     class D,E,F output
+    class IN,PROC,OUT group
+
+    linkStyle default stroke:#ff4fd8,stroke-width:3px
 ```
 
 ## Tech stack
 
-**Ingest and transform**
-
-![Python](https://img.shields.io/badge/Python-3d0a35?style=for-the-badge&logo=python&logoColor=ff4fd8)
-![SQL](https://img.shields.io/badge/SQL-3d0a35?style=for-the-badge&logo=postgresql&logoColor=ff4fd8)
-![Databricks](https://img.shields.io/badge/Databricks-3d0a35?style=for-the-badge&logo=databricks&logoColor=ff4fd8)
-![dbt](https://img.shields.io/badge/dbt-3d0a35?style=for-the-badge&logo=dbt&logoColor=ff4fd8)
-
-**Analyse**
-
-![Power BI](https://img.shields.io/badge/Power_BI-3d0a35?style=for-the-badge&logo=powerbi&logoColor=ff4fd8)
-![DAX](https://img.shields.io/badge/DAX-3d0a35?style=for-the-badge)
-![Jupyter](https://img.shields.io/badge/Jupyter-3d0a35?style=for-the-badge&logo=jupyter&logoColor=ff4fd8)
-
-**Build**
-
-![React](https://img.shields.io/badge/React-3d0a35?style=for-the-badge&logo=react&logoColor=ff4fd8)
-![TypeScript](https://img.shields.io/badge/TypeScript-3d0a35?style=for-the-badge&logo=typescript&logoColor=ff4fd8)
-![Vite](https://img.shields.io/badge/Vite-3d0a35?style=for-the-badge&logo=vite&logoColor=ff4fd8)
-![Django](https://img.shields.io/badge/Django-3d0a35?style=for-the-badge&logo=django&logoColor=ff4fd8)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-3d0a35?style=for-the-badge&logo=springboot&logoColor=ff4fd8)
-![Shopify](https://img.shields.io/badge/Shopify-3d0a35?style=for-the-badge&logo=shopify&logoColor=ff4fd8)
-
-**Explore (AI and ML)**
-
-![scikit-learn](https://img.shields.io/badge/scikit--learn-3d0a35?style=for-the-badge&logo=scikitlearn&logoColor=ff4fd8)
-
-**Tools**
-
-![Docker](https://img.shields.io/badge/Docker-3d0a35?style=for-the-badge&logo=docker&logoColor=ff4fd8)
-![Git](https://img.shields.io/badge/Git-3d0a35?style=for-the-badge&logo=git&logoColor=ff4fd8)
-![GitHub](https://img.shields.io/badge/GitHub-3d0a35?style=for-the-badge&logo=github&logoColor=ff4fd8)
+<table>
+  <tr>
+    <th>1. Ingest</th>
+    <th>2. Transform</th>
+    <th>3. Analyse</th>
+    <th>4. Build</th>
+    <th>5. Explore</th>
+  </tr>
+  <tr>
+    <td valign="top" align="center">
+      <img src="https://img.shields.io/badge/Python-3d0a35?style=for-the-badge&logo=python&logoColor=ff4fd8" alt="Python" /><br/>
+      <img src="https://img.shields.io/badge/SQL-3d0a35?style=for-the-badge&logo=postgresql&logoColor=ff4fd8" alt="SQL" />
+    </td>
+    <td valign="top" align="center">
+      <img src="https://img.shields.io/badge/Databricks-3d0a35?style=for-the-badge&logo=databricks&logoColor=ff4fd8" alt="Databricks" /><br/>
+      <img src="https://img.shields.io/badge/dbt-3d0a35?style=for-the-badge&logo=dbt&logoColor=ff4fd8" alt="dbt" />
+    </td>
+    <td valign="top" align="center">
+      <img src="https://img.shields.io/badge/Power_BI-3d0a35?style=for-the-badge&logo=powerbi&logoColor=ff4fd8" alt="Power BI" /><br/>
+      <img src="https://img.shields.io/badge/DAX-3d0a35?style=for-the-badge" alt="DAX" /><br/>
+      <img src="https://img.shields.io/badge/Jupyter-3d0a35?style=for-the-badge&logo=jupyter&logoColor=ff4fd8" alt="Jupyter" />
+    </td>
+    <td valign="top" align="center">
+      <img src="https://img.shields.io/badge/React-3d0a35?style=for-the-badge&logo=react&logoColor=ff4fd8" alt="React" /><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3d0a35?style=for-the-badge&logo=typescript&logoColor=ff4fd8" alt="TypeScript" /><br/>
+      <img src="https://img.shields.io/badge/Vite-3d0a35?style=for-the-badge&logo=vite&logoColor=ff4fd8" alt="Vite" /><br/>
+      <img src="https://img.shields.io/badge/Django-3d0a35?style=for-the-badge&logo=django&logoColor=ff4fd8" alt="Django" /><br/>
+      <img src="https://img.shields.io/badge/Spring_Boot-3d0a35?style=for-the-badge&logo=springboot&logoColor=ff4fd8" alt="Spring Boot" /><br/>
+      <img src="https://img.shields.io/badge/Shopify-3d0a35?style=for-the-badge&logo=shopify&logoColor=ff4fd8" alt="Shopify" />
+    </td>
+    <td valign="top" align="center">
+      <img src="https://img.shields.io/badge/scikit--learn-3d0a35?style=for-the-badge&logo=scikitlearn&logoColor=ff4fd8" alt="scikit-learn" />
+    </td>
+  </tr>
+  <tr>
+    <td colspan="5" align="center">
+      <b>Running underneath it all:</b><br/>
+      <img src="https://img.shields.io/badge/Docker-0d0d0d?style=for-the-badge&logo=docker&logoColor=ff4fd8" alt="Docker" />
+      <img src="https://img.shields.io/badge/Git-0d0d0d?style=for-the-badge&logo=git&logoColor=ff4fd8" alt="Git" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-0d0d0d?style=for-the-badge&logo=githubactions&logoColor=ff4fd8" alt="GitHub Actions" />
+    </td>
+  </tr>
+</table>
 
 ## Featured projects
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Sitina-Celine/REPLACE-F1-REPO">Ergast F1 Data Pipeline</a></h3>
+      <a href="https://github.com/Sitina-Celine/REPLACE-F1-REPO">
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:ff4fd8&height=90&text=F1%20Data%20Pipeline&fontSize=28&fontColor=ffffff&fontAlignY=55" alt="F1 Data Pipeline" />
+      </a>
       <p>End-to-end pipeline that pulls Formula 1 data from the Ergast API, cleans and models it, and makes it ready for analysis.</p>
-      <p><b>Stack:</b> Python, SQL, Databricks</p>
+      <img src="https://img.shields.io/badge/Python-3d0a35?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/SQL-3d0a35?style=flat-square" alt="SQL" />
+      <img src="https://img.shields.io/badge/Databricks-3d0a35?style=flat-square" alt="Databricks" />
+      <img src="https://img.shields.io/badge/type-data_engineering-ff4fd8?style=flat-square" alt="Data engineering" />
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Sitina-Celine/REPLACE-FINANCE-REPO">Finance Insights</a></h3>
+      <a href="https://github.com/Sitina-Celine/REPLACE-FINANCE-REPO">
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:3d0a35,100:ff4fd8&height=90&text=Finance%20Insights&fontSize=28&fontColor=ffffff&fontAlignY=55" alt="Finance Insights" />
+      </a>
       <p>Cleans raw general ledger data in Databricks and turns it into a Power BI finance dashboard with DAX measures.</p>
-      <p><b>Stack:</b> Databricks, Power BI, DAX</p>
+      <img src="https://img.shields.io/badge/Databricks-3d0a35?style=flat-square" alt="Databricks" />
+      <img src="https://img.shields.io/badge/Power_BI-3d0a35?style=flat-square" alt="Power BI" />
+      <img src="https://img.shields.io/badge/DAX-3d0a35?style=flat-square" alt="DAX" />
+      <img src="https://img.shields.io/badge/type-analytics-ff4fd8?style=flat-square" alt="Analytics" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Sitina-Celine/REPLACE-UKILI-REPO">UKILI Storefront</a></h3>
+      <a href="https://github.com/Sitina-Celine/REPLACE-UKILI-REPO">
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff4fd8,100:3d0a35&height=90&text=UKILI%20Storefront&fontSize=28&fontColor=ffffff&fontAlignY=55" alt="UKILI Storefront" />
+      </a>
       <p>E-commerce storefront where a React app uses Shopify as its backend for products, cart, and checkout, with Builder.io for visual page editing.</p>
-      <p><b>Stack:</b> React, TypeScript, Shopify, Builder.io</p>
+      <img src="https://img.shields.io/badge/React-3d0a35?style=flat-square" alt="React" />
+      <img src="https://img.shields.io/badge/TypeScript-3d0a35?style=flat-square" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Shopify-3d0a35?style=flat-square" alt="Shopify" />
+      <img src="https://img.shields.io/badge/Builder.io-3d0a35?style=flat-square" alt="Builder.io" />
+      <img src="https://img.shields.io/badge/type-frontend-ff4fd8?style=flat-square" alt="Frontend" />
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Sitina-Celine/Sitina-Celine">Self-Updating Profile Pipeline</a></h3>
+      <a href="https://github.com/Sitina-Celine/Sitina-Celine">
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:ff4fd8,100:0d0d0d&height=90&text=Self-Updating%20Profile&fontSize=28&fontColor=ffffff&fontAlignY=55" alt="Self-Updating Profile" />
+      </a>
       <p>This profile runs its own scheduled ETL job: GitHub Actions extracts the latest F1 race result from an API, transforms it with Python, and loads it into this page every week.</p>
-      <p><b>Stack:</b> Python, GitHub Actions, REST API</p>
+      <img src="https://img.shields.io/badge/Python-3d0a35?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-3d0a35?style=flat-square" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/REST_API-3d0a35?style=flat-square" alt="REST API" />
+      <img src="https://img.shields.io/badge/status-live-ff4fd8?style=flat-square" alt="Live" />
     </td>
   </tr>
 </table>
 
 ## Live from my data pipeline
 
-This section is updated automatically every Monday by a GitHub Action that runs a small ETL pipeline: it extracts the latest Formula 1 result from the Jolpica F1 API, transforms it with Python, and loads it here. [See the pipeline code](scripts/update_f1.py).
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/f1.yml?style=for-the-badge&label=F1%20ETL%20job&labelColor=3d0a35" alt="F1 ETL job status" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/profile-3d.yml?style=for-the-badge&label=3D%20city%20job&labelColor=3d0a35" alt="3D city job status" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/snake.yml?style=for-the-badge&label=Snake%20job&labelColor=3d0a35" alt="Snake job status" />
+</p>
+
+```text
+schedule  : every Monday, 06:00 UTC
+extract   : Jolpica F1 API  (latest race)
+transform : Python  (top 3 finishers to Markdown)
+load      : this README, between two hidden markers
+on failure: keep last good result, never break the page
+```
+
+[See the pipeline code](scripts/update_f1.py)
 
 <!-- F1:START -->
 
@@ -116,11 +189,6 @@ This section is updated automatically every Monday by a GitHub Action that runs 
 <!-- F1:END -->
 
 ## GitHub activity
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sitina-Celine&show_icons=true&bg_color=0d0d0d&title_color=ff4fd8&text_color=ffffff&icon_color=ff4fd8&border_color=3d0a35&hide_rank=false" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sitina-Celine&layout=compact&bg_color=0d0d0d&title_color=ff4fd8&text_color=ffffff&border_color=3d0a35" alt="Top languages" />
-</p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Sitina-Celine&background=0d0d0d&border=3d0a35&ring=ff4fd8&fire=ff4fd8&currStreakLabel=ff4fd8&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=bbbbbb" alt="Contribution streak" />
@@ -141,16 +209,25 @@ This section is updated automatically every Monday by a GitHub Action that runs 
 <details>
   <summary><b>Click here if you're a data engineer</b></summary>
 
-```json
-{
-  "name": "Celine Sitina",
-  "location": "Nairobi, Kenya",
-  "role": "Data Engineer",
-  "pipeline": ["extract", "clean", "model", "visualise", "ship"],
-  "currently_building": "UKILI storefront",
-  "currently_learning": "Builder.io",
-  "favourite_query": "SELECT * FROM problems WHERE solved = FALSE"
-}
+```yaml
+# Data quality tests that run on me every day
+models:
+  - name: celine_sitina
+    columns:
+      - name: curiosity
+        tests:
+          - not_null
+      - name: approach
+        tests:
+          - unique
+      - name: problems
+        tests:
+          - accepted_values:
+              values: ["solved", "being_solved"]
+      - name: data
+        tests:
+          - relationships:
+              to: ref('decisions')
 ```
 
 </details>
