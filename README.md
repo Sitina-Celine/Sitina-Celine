@@ -8,7 +8,7 @@
 
 ## About me
 
-I'm a data engineer based in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
+I'm a data engineer at Bizen Ltd in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
 
 - Currently building: an e-commerce storefront with React and Shopify
 - Currently learning: Builder.io for visual page building
@@ -33,7 +33,6 @@ flowchart LR
     class B,C pipe
     class D,E,F output
 ```
-https://img.shields.io/badge/<NAME>-<BACKGROUND COLOUR>?style=for-the-badge&logo=<LOGO>&logoColor=<LOGO COLOUR>
 
 ## Tech stack
 
@@ -68,3 +67,64 @@ https://img.shields.io/badge/<NAME>-<BACKGROUND COLOUR>?style=for-the-badge&logo
 ![Docker](https://img.shields.io/badge/Docker-3d0a35?style=for-the-badge&logo=docker&logoColor=ff4fd8)
 ![Git](https://img.shields.io/badge/Git-3d0a35?style=for-the-badge&logo=git&logoColor=ff4fd8)
 ![GitHub](https://img.shields.io/badge/GitHub-3d0a35?style=for-the-badge&logo=github&logoColor=ff4fd8)
+
+## Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sitina-Celine/REPLACE-F1-REPO">Ergast F1 Data Pipeline</a></h3>
+      <p>End-to-end pipeline that pulls Formula 1 data from the Ergast API, cleans and models it, and makes it ready for analysis.</p>
+      <p><b>Stack:</b> Python, SQL, Databricks</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sitina-Celine/REPLACE-FINANCE-REPO">Finance Insights</a></h3>
+      <p>Cleans raw general ledger data in Databricks and turns it into a Power BI finance dashboard with DAX measures.</p>
+      <p><b>Stack:</b> Databricks, Power BI, DAX</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sitina-Celine/REPLACE-UKILI-REPO">UKILI Storefront</a></h3>
+      <p>E-commerce storefront where a React app uses Shopify as its backend for products, cart, and checkout, with Builder.io for visual page editing.</p>
+      <p><b>Stack:</b> React, TypeScript, Shopify, Builder.io</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Sitina-Celine/Bizen">Bizen Website</a></h3>
+      <p>Official website for Bizen Technologies, version 1.</p>
+      <p><b>Stack:</b> REPLACE WITH STACK</p>
+    </td>
+  </tr>
+</table>
+
+## GitHub activity
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sitina-Celine&show_icons=true&bg_color=0d0d0d&title_color=ff4fd8&text_color=ffffff&icon_color=ff4fd8&border_color=3d0a35&hide_rank=false" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sitina-Celine&layout=compact&bg_color=0d0d0d&title_color=ff4fd8&text_color=ffffff&border_color=3d0a35" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=Sitina-Celine&background=0d0d0d&border=3d0a35&ring=ff4fd8&fire=ff4fd8&currStreakLabel=ff4fd8&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=bbbbbb" alt="Contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sitina-Celine&bg_color=0d0d0d&color=ffffff&line=ff4fd8&point=ffffff&area=true&area_color=ff4fd8&title_color=ff4fd8&hide_border=true" alt="Contribution activity graph" />
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sitina-Celine/Sitina-Celine/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sitina-Celine/Sitina-Celine/output/github-snake-light.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/Sitina-Celine/Sitina-Celine/output/github-snake-dark.svg" />
+  </picture>
+</p>
+
+## Let's connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3d0a35?style=for-the-badge&logo=linkedin&logoColor=ff4fd8)](REPLACE-WITH-YOUR-LINKEDIN-URL)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3d0a35?style=for-the-badge&logo=googlechrome&logoColor=ff4fd8)](REPLACE-WITH-YOUR-PORTFOLIO-URL)
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff4fd8,50:3d0a35,100:0d0d0d&height=120&section=footer" alt="Footer wave" />
+</p>
