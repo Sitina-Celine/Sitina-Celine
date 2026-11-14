@@ -3,12 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1200&color=FF4FD8&center=true&vCenter=true&width=650&lines=Building+data+pipelines+on+Databricks+and+dbt;Turning+messy+data+into+Power+BI+insights;Shipping+React+storefronts+on+Shopify;Exploring+AI+and+machine+learning;Based+in+Nairobi%2C+Kenya" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=FF4FD8&center=true&vCenter=true&width=700&lines=%3E+SELECT+%2A+FROM+engineers+WHERE+name+%3D+%27Celine%27;%3E+role%3A+Data+Engineer+and+Full-Stack+Builder;%3E+stack%3A+Databricks%2C+dbt%2C+Power+BI%2C+Python;%3E+also+builds%3A+React%2C+Django%2C+Spring+Boot;%3E+exploring%3A+AI+and+machine+learning;%3E+1+row+returned+from+Nairobi%2C+Kenya" alt="SQL terminal typing animation" />
 </p>
 
 ## About me
 
-I'm a data engineer at Bizen Ltd in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
+I'm a data engineer based in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
 
 - Currently building: an e-commerce storefront with React and Shopify
 - Currently learning: Builder.io for visual page building
@@ -90,12 +90,20 @@ flowchart LR
       <p><b>Stack:</b> React, TypeScript, Shopify, Builder.io</p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Sitina-Celine/Bizen">Bizen Website</a></h3>
-      <p>Official website for Bizen Technologies, version 1.</p>
-      <p><b>Stack:</b> REPLACE WITH STACK</p>
+      <h3><a href="https://github.com/Sitina-Celine/Sitina-Celine">Self-Updating Profile Pipeline</a></h3>
+      <p>This profile runs its own scheduled ETL job: GitHub Actions extracts the latest F1 race result from an API, transforms it with Python, and loads it into this page every week.</p>
+      <p><b>Stack:</b> Python, GitHub Actions, REST API</p>
     </td>
   </tr>
 </table>
+
+## Live from my data pipeline
+
+This section is updated automatically every Monday by a GitHub Action that runs a small ETL pipeline: it extracts the latest Formula 1 result from the Jolpica F1 API, transforms it with Python, and loads it here. [See the pipeline code](scripts/update_f1.py).
+
+<!-- F1:START -->
+Waiting for the first pipeline run.
+<!-- F1:END -->
 
 ## GitHub activity
 
@@ -109,7 +117,7 @@ flowchart LR
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sitina-Celine&bg_color=0d0d0d&color=ffffff&line=ff4fd8&point=ffffff&area=true&area_color=ff4fd8&title_color=ff4fd8&hide_border=true" alt="Contribution activity graph" />
+  <img src="https://raw.githubusercontent.com/Sitina-Celine/Sitina-Celine/output-3d/profile-night-rainbow.svg" alt="3D contribution city" />
 </p>
 
 <p align="center">
@@ -120,10 +128,27 @@ flowchart LR
   </picture>
 </p>
 
+<details>
+  <summary><b>Click here if you're a data engineer</b></summary>
+
+```json
+{
+  "name": "Celine Sitina",
+  "location": "Nairobi, Kenya",
+  "role": "Data Engineer",
+  "pipeline": ["extract", "clean", "model", "visualise", "ship"],
+  "currently_building": "UKILI storefront",
+  "currently_learning": "Builder.io",
+  "favourite_query": "SELECT * FROM problems WHERE solved = FALSE"
+}
+```
+
+</details>
+
 ## Let's connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-3d0a35?style=for-the-badge&logo=linkedin&logoColor=ff4fd8)](REPLACE-WITH-YOUR-LINKEDIN-URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-3d0a35?style=for-the-badge&logo=googlechrome&logoColor=ff4fd8)](REPLACE-WITH-YOUR-PORTFOLIO-URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3d0a35?style=for-the-badge)](REPLACE-WITH-YOUR-LINKEDIN-URL)
+[![Portfolio](https://img.shields.io/badge/Portfolio-3d0a35?style=for-the-badge)](REPLACE-WITH-YOUR-PORTFOLIO-URL)
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff4fd8,50:3d0a35,100:0d0d0d&height=120&section=footer" alt="Footer wave" />
