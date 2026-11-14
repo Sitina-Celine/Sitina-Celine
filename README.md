@@ -34,3 +34,37 @@ flowchart LR
     class D,E,F output
 ```
 https://img.shields.io/badge/<NAME>-<BACKGROUND COLOUR>?style=for-the-badge&logo=<LOGO>&logoColor=<LOGO COLOUR>
+
+## Tech stack
+
+**Ingest and transform**
+
+![Python](https://img.shields.io/badge/Python-3d0a35?style=for-the-badge&logo=python&logoColor=ff4fd8)
+![SQL](https://img.shields.io/badge/SQL-3d0a35?style=for-the-badge&logo=postgresql&logoColor=ff4fd8)
+![Databricks](https://img.shields.io/badge/Databricks-3d0a35?style=for-the-badge&logo=databricks&logoColor=ff4fd8)
+![dbt](https://img.shields.io/badge/dbt-3d0a35?style=for-the-badge&logo=dbt&logoColor=ff4fd8)
+
+**Analyse**
+
+![Power BI](https://img.shields.io/badge/Power_BI-3d0a35?style=for-the-badge&logo=powerbi&logoColor=ff4fd8)
+![DAX](https://img.shields.io/badge/DAX-3d0a35?style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/Jupyter-3d0a35?style=for-the-badge&logo=jupyter&logoColor=ff4fd8)
+
+**Build**
+
+![React](https://img.shields.io/badge/React-3d0a35?style=for-the-badge&logo=react&logoColor=ff4fd8)
+![TypeScript](https://img.shields.io/badge/TypeScript-3d0a35?style=for-the-badge&logo=typescript&logoColor=ff4fd8)
+![Vite](https://img.shields.io/badge/Vite-3d0a35?style=for-the-badge&logo=vite&logoColor=ff4fd8)
+![Django](https://img.shields.io/badge/Django-3d0a35?style=for-the-badge&logo=django&logoColor=ff4fd8)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3d0a35?style=for-the-badge&logo=springboot&logoColor=ff4fd8)
+![Shopify](https://img.shields.io/badge/Shopify-3d0a35?style=for-the-badge&logo=shopify&logoColor=ff4fd8)
+
+**Explore (AI and ML)**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-3d0a35?style=for-the-badge&logo=scikitlearn&logoColor=ff4fd8)
+
+**Tools**
+
+![Docker](https://img.shields.io/badge/Docker-3d0a35?style=for-the-badge&logo=docker&logoColor=ff4fd8)
+![Git](https://img.shields.io/badge/Git-3d0a35?style=for-the-badge&logo=git&logoColor=ff4fd8)
+![GitHub](https://img.shields.io/badge/GitHub-3d0a35?style=for-the-badge&logo=github&logoColor=ff4fd8)
