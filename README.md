@@ -33,3 +33,4 @@ flowchart LR
     class B,C pipe
     class D,E,F output
 ```
+https://img.shields.io/badge/<NAME>-<BACKGROUND COLOUR>?style=for-the-badge&logo=<LOGO>&logoColor=<LOGO COLOUR>
