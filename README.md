@@ -102,7 +102,17 @@ flowchart LR
 This section is updated automatically every Monday by a GitHub Action that runs a small ETL pipeline: it extracts the latest Formula 1 result from the Jolpica F1 API, transforms it with Python, and loads it here. [See the pipeline code](scripts/update_f1.py).
 
 <!-- F1:START -->
-Waiting for the first pipeline run.
+
+**Brazilian Grand Prix** (season 2026, round 20, 2026-11-08)
+
+| Pos | Driver | Team | Time / Status |
+| --- | --- | --- | --- |
+| 1 | Lando Norris | McLaren | 1:35:23.504 |
+| 2 | Max Verstappen | Red Bull | +14.602 |
+| 3 | Isack Hadjar | Red Bull | +24.485 |
+
+<sub>Pipeline last ran: 2026-11-14 20:48 UTC. Source: Jolpica F1 API.</sub>
+
 <!-- F1:END -->
 
 ## GitHub activity
