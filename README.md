@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1a1c,55:0f3d3e,100:1f7a75&height=220&section=header&text=Celine%20Sitina&fontSize=60&fontColor=e9c46a&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Data%20Engineer%20%7C%20Systems%20%C2%B7%20Governance%20%C2%B7%20Analytics%20%C2%B7%20AI%2FML&descSize=17&descAlignY=56" alt="Celine Sitina banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,55:2b1430,100:7a1a6c&height=220&section=header&text=Celine%20Sitina&fontSize=60&fontColor=ff4fd8&animation=fadeIn&fontAlignY=36&desc=Full-Stack%20Data%20Engineer%20%7C%20Systems%20%C2%B7%20Governance%20%C2%B7%20Analytics%20%C2%B7%20AI%2FML&descSize=17&descAlignY=56" alt="Celine Sitina banner" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=2DD4BF&center=true&vCenter=true&width=720&lines=%3E+SELECT+%2A+FROM+engineers+WHERE+name+%3D+%27Celine%27;%3E+role%3A+Full-Stack+Data+Engineer;%3E+core%3A+pipelines+that+move+data+and+keep+it+trustworthy;%3E+builds%3A+the+systems+the+data+flows+through;%3E+protects%3A+data+quality%2C+governance%2C+security;%3E+serves%3A+analytics+and+AI%2FML;%3E+1+row+returned+from+Nairobi%2C+Kenya" alt="SQL terminal typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1400&color=FF4FD8&center=true&vCenter=true&width=720&lines=%3E+SELECT+%2A+FROM+engineers+WHERE+name+%3D+%27Celine%27;%3E+role%3A+Full-Stack+Data+Engineer;%3E+core%3A+pipelines+that+move+data+and+keep+it+trustworthy;%3E+builds%3A+the+systems+the+data+flows+through;%3E+protects%3A+data+quality%2C+governance%2C+security;%3E+serves%3A+analytics+and+AI%2FML;%3E+1+row+returned+from+Nairobi%2C+Kenya" alt="SQL terminal typing animation" />
 </p>
 
 ## About me
@@ -29,9 +29,9 @@ WHERE name = 'Celine Sitina'
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{
-  'pie1':'#1f7a75','pie2':'#0f3d3e','pie3':'#e9c46a','pie4':'#2dd4bf','pie5':'#9a7b2f',
-  'pieTitleTextColor':'#e6f4f1','pieSectionTextColor':'#ffffff','pieLegendTextColor':'#e6f4f1',
-  'pieStrokeColor':'#0a1a1c','pieOuterStrokeColor':'#0a1a1c'}}}%%
+  'pie1':'#7a1a6c','pie2':'#2b1430','pie3':'#ff4fd8','pie4':'#f2a7e0','pie5':'#4a1f4d',
+  'pieTitleTextColor':'#f3e9f3','pieSectionTextColor':'#ffffff','pieLegendTextColor':'#f3e9f3',
+  'pieStrokeColor':'#0d0d0d','pieOuterStrokeColor':'#0d0d0d'}}}%%
 pie showData title How my work splits
     "Data engineering" : 60
     "Software and system design" : 10
@@ -87,12 +87,12 @@ flowchart LR
     G -.- V
     G -.- C
 
-    classDef system fill:#0a1a1c,stroke:#8fb8b3,stroke-width:1.5px,color:#e6f4f1
-    classDef source fill:#0a1a1c,stroke:#2dd4bf,stroke-width:1.5px,color:#e6f4f1
-    classDef pipe fill:#0f3d3e,stroke:#2dd4bf,stroke-width:1.5px,color:#e6f4f1
-    classDef output fill:#1f7a75,stroke:#2dd4bf,stroke-width:1.5px,color:#ffffff
-    classDef accent fill:#e9c46a,stroke:#ffffff,stroke-width:1.5px,color:#0a1a1c
-    classDef group fill:transparent,stroke:#0f3d3e,stroke-width:1px,color:#e9c46a
+    classDef system fill:#0d0d0d,stroke:#b58ab0,stroke-width:1.5px,color:#f3e9f3
+    classDef source fill:#0d0d0d,stroke:#f2a7e0,stroke-width:1.5px,color:#f3e9f3
+    classDef pipe fill:#2b1430,stroke:#f2a7e0,stroke-width:1.5px,color:#f3e9f3
+    classDef output fill:#7a1a6c,stroke:#f2a7e0,stroke-width:1.5px,color:#ffffff
+    classDef accent fill:#ff4fd8,stroke:#ffffff,stroke-width:1.5px,color:#0d0d0d
+    classDef group fill:transparent,stroke:#2b1430,stroke-width:1px,color:#f2a7e0
 
     class S system
     class A source
@@ -101,7 +101,7 @@ flowchart LR
     class G accent
     class SYS,COLLECT,PROCESS,SERVE group
 
-    linkStyle default stroke:#2dd4bf,stroke-width:2px
+    linkStyle default stroke:#f2a7e0,stroke-width:2px
 ```
 
 <sub>The applications I build both produce data for the pipeline and consume what comes out of it. Governance and security watch every stage in between.</sub>
@@ -119,43 +119,43 @@ flowchart LR
   <tr>
     <td valign="top" align="center">
       <sub>Ingest</sub><br/>
-      <img src="https://img.shields.io/badge/Python-0f3d3e?style=flat-square&logo=python&logoColor=2dd4bf" alt="Python" /><br/>
-      <img src="https://img.shields.io/badge/SQL-0f3d3e?style=flat-square&logo=postgresql&logoColor=2dd4bf" alt="SQL" /><br/>
-      <img src="https://img.shields.io/badge/REST_APIs-0f3d3e?style=flat-square" alt="REST APIs" /><br/>
-      <img src="https://img.shields.io/badge/GitHub_Actions-0f3d3e?style=flat-square&logo=githubactions&logoColor=2dd4bf" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/Python-2b1430?style=flat-square&logo=python&logoColor=f2a7e0" alt="Python" /><br/>
+      <img src="https://img.shields.io/badge/SQL-2b1430?style=flat-square&logo=postgresql&logoColor=f2a7e0" alt="SQL" /><br/>
+      <img src="https://img.shields.io/badge/REST_APIs-2b1430?style=flat-square" alt="REST APIs" /><br/>
+      <img src="https://img.shields.io/badge/GitHub_Actions-2b1430?style=flat-square&logo=githubactions&logoColor=f2a7e0" alt="GitHub Actions" />
     </td>
     <td valign="top" align="center">
       <sub>Transform and model</sub><br/>
-      <img src="https://img.shields.io/badge/Databricks-0f3d3e?style=flat-square&logo=databricks&logoColor=2dd4bf" alt="Databricks" /><br/>
-      <img src="https://img.shields.io/badge/dbt-0f3d3e?style=flat-square&logo=dbt&logoColor=2dd4bf" alt="dbt" /><br/>
-      <img src="https://img.shields.io/badge/Data_modelling-0f3d3e?style=flat-square" alt="Data modelling" /><br/>
-      <img src="https://img.shields.io/badge/Docker-0f3d3e?style=flat-square&logo=docker&logoColor=2dd4bf" alt="Docker" />
+      <img src="https://img.shields.io/badge/Databricks-2b1430?style=flat-square&logo=databricks&logoColor=f2a7e0" alt="Databricks" /><br/>
+      <img src="https://img.shields.io/badge/dbt-2b1430?style=flat-square&logo=dbt&logoColor=f2a7e0" alt="dbt" /><br/>
+      <img src="https://img.shields.io/badge/Data_modelling-2b1430?style=flat-square" alt="Data modelling" /><br/>
+      <img src="https://img.shields.io/badge/Docker-2b1430?style=flat-square&logo=docker&logoColor=f2a7e0" alt="Docker" />
     </td>
     <td valign="top" align="center">
       <br/>
-      <img src="https://img.shields.io/badge/Spring_Boot-0f3d3e?style=flat-square&logo=springboot&logoColor=8fb8b3" alt="Spring Boot" /><br/>
-      <img src="https://img.shields.io/badge/Django-0f3d3e?style=flat-square&logo=django&logoColor=8fb8b3" alt="Django" /><br/>
-      <img src="https://img.shields.io/badge/React-0f3d3e?style=flat-square&logo=react&logoColor=8fb8b3" alt="React" /><br/>
-      <img src="https://img.shields.io/badge/TypeScript-0f3d3e?style=flat-square&logo=typescript&logoColor=8fb8b3" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Spring_Boot-2b1430?style=flat-square&logo=springboot&logoColor=b58ab0" alt="Spring Boot" /><br/>
+      <img src="https://img.shields.io/badge/Django-2b1430?style=flat-square&logo=django&logoColor=b58ab0" alt="Django" /><br/>
+      <img src="https://img.shields.io/badge/React-2b1430?style=flat-square&logo=react&logoColor=b58ab0" alt="React" /><br/>
+      <img src="https://img.shields.io/badge/TypeScript-2b1430?style=flat-square&logo=typescript&logoColor=b58ab0" alt="TypeScript" />
     </td>
     <td valign="top" align="center">
       <br/>
-      <img src="https://img.shields.io/badge/Data_quality-9a7b2f?style=flat-square" alt="Data quality" /><br/>
-      <img src="https://img.shields.io/badge/Data_governance-9a7b2f?style=flat-square" alt="Data governance" /><br/>
-      <img src="https://img.shields.io/badge/Data_security-9a7b2f?style=flat-square" alt="Data security" /><br/>
-      <img src="https://img.shields.io/badge/dbt_tests-9a7b2f?style=flat-square&logo=dbt&logoColor=ffffff" alt="dbt tests" />
+      <img src="https://img.shields.io/badge/Data_quality-7a1a6c?style=flat-square" alt="Data quality" /><br/>
+      <img src="https://img.shields.io/badge/Data_governance-7a1a6c?style=flat-square" alt="Data governance" /><br/>
+      <img src="https://img.shields.io/badge/Data_security-7a1a6c?style=flat-square" alt="Data security" /><br/>
+      <img src="https://img.shields.io/badge/dbt_tests-7a1a6c?style=flat-square&logo=dbt&logoColor=ffffff" alt="dbt tests" />
     </td>
     <td valign="top" align="center">
       <br/>
-      <img src="https://img.shields.io/badge/Power_BI-0f3d3e?style=flat-square&logo=powerbi&logoColor=2dd4bf" alt="Power BI" /><br/>
-      <img src="https://img.shields.io/badge/DAX-0f3d3e?style=flat-square" alt="DAX" /><br/>
-      <img src="https://img.shields.io/badge/Jupyter-0f3d3e?style=flat-square&logo=jupyter&logoColor=2dd4bf" alt="Jupyter" />
+      <img src="https://img.shields.io/badge/Power_BI-2b1430?style=flat-square&logo=powerbi&logoColor=f2a7e0" alt="Power BI" /><br/>
+      <img src="https://img.shields.io/badge/DAX-2b1430?style=flat-square" alt="DAX" /><br/>
+      <img src="https://img.shields.io/badge/Jupyter-2b1430?style=flat-square&logo=jupyter&logoColor=f2a7e0" alt="Jupyter" />
     </td>
     <td valign="top" align="center">
       <br/>
-      <img src="https://img.shields.io/badge/scikit--learn-0f3d3e?style=flat-square&logo=scikitlearn&logoColor=2dd4bf" alt="scikit-learn" /><br/>
-      <img src="https://img.shields.io/badge/pandas-0f3d3e?style=flat-square&logo=pandas&logoColor=2dd4bf" alt="pandas" /><br/>
-      <img src="https://img.shields.io/badge/Feature_prep-0f3d3e?style=flat-square" alt="Feature preparation" />
+      <img src="https://img.shields.io/badge/scikit--learn-2b1430?style=flat-square&logo=scikitlearn&logoColor=f2a7e0" alt="scikit-learn" /><br/>
+      <img src="https://img.shields.io/badge/pandas-2b1430?style=flat-square&logo=pandas&logoColor=f2a7e0" alt="pandas" /><br/>
+      <img src="https://img.shields.io/badge/Feature_prep-2b1430?style=flat-square" alt="Feature preparation" />
     </td>
   </tr>
 </table>
@@ -166,46 +166,46 @@ flowchart LR
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Sitina-Celine/REPLACE-F1-REPO">
-        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0a1a1c,100:1f7a75&height=70&text=F1%20Data%20Pipeline&fontSize=24&fontColor=e6f4f1&fontAlignY=55" alt="F1 Data Pipeline" />
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d0d0d,100:7a1a6c&height=70&text=F1%20Data%20Pipeline&fontSize=24&fontColor=f3e9f3&fontAlignY=55" alt="F1 Data Pipeline" />
       </a>
       <p>End-to-end pipeline that ingests Formula 1 data from the Ergast API, cleans and models it into analysis-ready tables, and keeps the data consistent from source to output.</p>
-      <img src="https://img.shields.io/badge/Python-0f3d3e?style=flat-square" alt="Python" />
-      <img src="https://img.shields.io/badge/SQL-0f3d3e?style=flat-square" alt="SQL" />
-      <img src="https://img.shields.io/badge/Databricks-0f3d3e?style=flat-square" alt="Databricks" />
-      <img src="https://img.shields.io/badge/area-data_engineering-9a7b2f?style=flat-square&labelColor=0f3d3e" alt="Data engineering" />
+      <img src="https://img.shields.io/badge/Python-2b1430?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/SQL-2b1430?style=flat-square" alt="SQL" />
+      <img src="https://img.shields.io/badge/Databricks-2b1430?style=flat-square" alt="Databricks" />
+      <img src="https://img.shields.io/badge/area-data_engineering-7a1a6c?style=flat-square&labelColor=2b1430" alt="Data engineering" />
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Sitina-Celine/REPLACE-FINANCE-REPO">
-        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f3d3e,100:1f7a75&height=70&text=Finance%20Insights&fontSize=24&fontColor=e6f4f1&fontAlignY=55" alt="Finance Insights" />
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:2b1430,100:7a1a6c&height=70&text=Finance%20Insights&fontSize=24&fontColor=f3e9f3&fontAlignY=55" alt="Finance Insights" />
       </a>
       <p>Takes messy general ledger data and cleans it in Databricks so the finance numbers can be trusted, then serves it to a Power BI dashboard with DAX measures.</p>
-      <img src="https://img.shields.io/badge/Databricks-0f3d3e?style=flat-square" alt="Databricks" />
-      <img src="https://img.shields.io/badge/Power_BI-0f3d3e?style=flat-square" alt="Power BI" />
-      <img src="https://img.shields.io/badge/DAX-0f3d3e?style=flat-square" alt="DAX" />
-      <img src="https://img.shields.io/badge/area-data_quality_and_analytics-9a7b2f?style=flat-square&labelColor=0f3d3e" alt="Data quality and analytics" />
+      <img src="https://img.shields.io/badge/Databricks-2b1430?style=flat-square" alt="Databricks" />
+      <img src="https://img.shields.io/badge/Power_BI-2b1430?style=flat-square" alt="Power BI" />
+      <img src="https://img.shields.io/badge/DAX-2b1430?style=flat-square" alt="DAX" />
+      <img src="https://img.shields.io/badge/area-data_quality_and_analytics-7a1a6c?style=flat-square&labelColor=2b1430" alt="Data quality and analytics" />
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/Sitina-Celine/Sitina-Celine">
-        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f7a75,100:0a1a1c&height=70&text=Self-Updating%20Profile&fontSize=24&fontColor=e6f4f1&fontAlignY=55" alt="Self-Updating Profile" />
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7a1a6c,100:0d0d0d&height=70&text=Self-Updating%20Profile&fontSize=24&fontColor=f3e9f3&fontAlignY=55" alt="Self-Updating Profile" />
       </a>
       <p>A scheduled ETL job that runs this profile. It extracts the latest F1 result from an API, transforms it with Python, and loads it here every week. If the source fails, it keeps the last good result instead of loading bad data.</p>
-      <img src="https://img.shields.io/badge/Python-0f3d3e?style=flat-square" alt="Python" />
-      <img src="https://img.shields.io/badge/GitHub_Actions-0f3d3e?style=flat-square" alt="GitHub Actions" />
-      <img src="https://img.shields.io/badge/REST_API-0f3d3e?style=flat-square" alt="REST API" />
-      <img src="https://img.shields.io/badge/status-live-e9c46a?style=flat-square&labelColor=0f3d3e" alt="Live" />
+      <img src="https://img.shields.io/badge/Python-2b1430?style=flat-square" alt="Python" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2b1430?style=flat-square" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/REST_API-2b1430?style=flat-square" alt="REST API" />
+      <img src="https://img.shields.io/badge/status-live-ff4fd8?style=flat-square&labelColor=2b1430" alt="Live" />
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/Sitina-Celine/REPLACE-UKILI-REPO">
-        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f7a75,100:0f3d3e&height=70&text=UKILI%20Storefront&fontSize=24&fontColor=e6f4f1&fontAlignY=55" alt="UKILI Storefront" />
+        <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7a1a6c,100:2b1430&height=70&text=UKILI%20Storefront&fontSize=24&fontColor=f3e9f3&fontAlignY=55" alt="UKILI Storefront" />
       </a>
       <p>A storefront where product, cart, and checkout data flows from Shopify's backend into a React front end, with Builder.io managing the page content. The systems side of the stack.</p>
-      <img src="https://img.shields.io/badge/Shopify-0f3d3e?style=flat-square" alt="Shopify" />
-      <img src="https://img.shields.io/badge/React-0f3d3e?style=flat-square" alt="React" />
-      <img src="https://img.shields.io/badge/TypeScript-0f3d3e?style=flat-square" alt="TypeScript" />
-      <img src="https://img.shields.io/badge/Builder.io-0f3d3e?style=flat-square" alt="Builder.io" />
-      <img src="https://img.shields.io/badge/area-systems_and_integration-9a7b2f?style=flat-square&labelColor=0f3d3e" alt="Systems and integration" />
+      <img src="https://img.shields.io/badge/Shopify-2b1430?style=flat-square" alt="Shopify" />
+      <img src="https://img.shields.io/badge/React-2b1430?style=flat-square" alt="React" />
+      <img src="https://img.shields.io/badge/TypeScript-2b1430?style=flat-square" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Builder.io-2b1430?style=flat-square" alt="Builder.io" />
+      <img src="https://img.shields.io/badge/area-systems_and_integration-7a1a6c?style=flat-square&labelColor=2b1430" alt="Systems and integration" />
     </td>
   </tr>
 </table>
@@ -213,9 +213,9 @@ flowchart LR
 ## Live from my data pipeline
 
 <p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/f1.yml?style=flat-square&label=F1%20ETL%20job&labelColor=0f3d3e" alt="F1 ETL job status" />
-  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/profile-3d.yml?style=flat-square&label=3D%20city%20job&labelColor=0f3d3e" alt="3D city job status" />
-  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/snake.yml?style=flat-square&label=Snake%20job&labelColor=0f3d3e" alt="Snake job status" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/f1.yml?style=flat-square&label=F1%20ETL%20job&labelColor=2b1430" alt="F1 ETL job status" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/profile-3d.yml?style=flat-square&label=3D%20city%20job&labelColor=2b1430" alt="3D city job status" />
+  <img src="https://img.shields.io/github/actions/workflow/status/Sitina-Celine/Sitina-Celine/snake.yml?style=flat-square&label=Snake%20job&labelColor=2b1430" alt="Snake job status" />
 </p>
 
 ```text
@@ -246,11 +246,11 @@ on failure: keep last good result, never load bad data
 ## GitHub activity
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Sitina-Celine&background=0a1a1c&border=0f3d3e&stroke=0f3d3e&ring=2dd4bf&fire=e9c46a&currStreakLabel=e9c46a&sideLabels=e6f4f1&currStreakNum=e6f4f1&sideNums=e6f4f1&dates=8fb8b3" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=Sitina-Celine&background=0d0d0d&border=2b1430&stroke=2b1430&ring=f2a7e0&fire=ff4fd8&currStreakLabel=ff4fd8&sideLabels=f3e9f3&currStreakNum=f3e9f3&sideNums=f3e9f3&dates=b58ab0" alt="Contribution streak" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sitina-Celine/Sitina-Celine/output-3d/profile-night-green.svg" alt="3D contribution city" />
+  <img src="https://raw.githubusercontent.com/Sitina-Celine/Sitina-Celine/output-3d/profile-night-view.svg" alt="3D contribution city" />
 </p>
 
 <p align="center">
@@ -290,9 +290,9 @@ models:
 
 ## Let's connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0f3d3e?style=flat-square)](REPLACE-WITH-YOUR-LINKEDIN-URL)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0f3d3e?style=flat-square)](REPLACE-WITH-YOUR-PORTFOLIO-URL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-2b1430?style=flat-square)](REPLACE-WITH-YOUR-LINKEDIN-URL)
+[![Portfolio](https://img.shields.io/badge/Portfolio-2b1430?style=flat-square)](REPLACE-WITH-YOUR-PORTFOLIO-URL)
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1f7a75,45:0f3d3e,100:0a1a1c&height=120&section=footer" alt="Footer wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7a1a6c,45:2b1430,100:0d0d0d&height=120&section=footer" alt="Footer wave" />
 </p>
