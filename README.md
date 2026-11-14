@@ -8,7 +8,7 @@
 
 ## About me
 
-I'm a data engineer at Bizen Ltd in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
+I'm a data engineer based in Nairobi, and I also build full-stack applications. I enjoy the whole journey of data: pulling it in from messy sources, cleaning and shaping it, and turning it into dashboards, apps, and machine learning work that people actually use.
 
 - Currently building: an e-commerce storefront with React and Shopify
 - Currently learning: Builder.io for visual page building
