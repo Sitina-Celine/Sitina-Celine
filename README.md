@@ -239,7 +239,7 @@ on failure: keep last good result, never load bad data
 | 2 | Max Verstappen | Red Bull | +14.602 |
 | 3 | Isack Hadjar | Red Bull | +24.485 |
 
-<sub>Pipeline last ran: 2026-11-14 20:48 UTC. Source: Jolpica F1 API.</sub>
+<sub>Pipeline last ran: 2026-11-16 14:04 UTC. Source: Jolpica F1 API.</sub>
 
 <!-- F1:END -->
 
