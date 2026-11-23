@@ -231,15 +231,15 @@ on failure: keep last good result, never load bad data
 
 <!-- F1:START -->
 
-**Brazilian Grand Prix** (season 2026, round 20, 2026-11-08)
+**Las Vegas Grand Prix** (season 2026, round 21, 2026-11-22)
 
 | Pos | Driver | Team | Time / Status |
 | --- | --- | --- | --- |
-| 1 | Lando Norris | McLaren | 1:35:23.504 |
-| 2 | Max Verstappen | Red Bull | +14.602 |
-| 3 | Isack Hadjar | Red Bull | +24.485 |
+| 1 | Max Verstappen | Red Bull | 1:27:39.624 |
+| 2 | Lando Norris | McLaren | +0.639 |
+| 3 | Oscar Piastri | McLaren | +1.529 |
 
-<sub>Pipeline last ran: 2026-11-16 14:04 UTC. Source: Jolpica F1 API.</sub>
+<sub>Pipeline last ran: 2026-11-23 16:36 UTC. Source: Jolpica F1 API.</sub>
 
 <!-- F1:END -->
 
